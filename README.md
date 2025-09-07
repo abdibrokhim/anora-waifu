@@ -1,36 +1,50 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Anora AI
 
-## Getting Started
+## clips folder:
 
-First, run the development server:
+Folders and Files:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+负面 – Negative
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+3D建模图片制作.mp4 – 3D Model Image Production.mp4
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+File List:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+jimeng-2025-07-16-1043-笑着优雅的左右摇晃，过一会儿手扶着下巴，保持微笑.mp4
+Smiling gracefully while swaying left and right, then after a while, resting hand on chin, maintaining a smile.mp4
 
-## Learn More
+jimeng-2025-07-16-3466-笑着优雅的左右摇晃，过一会儿手扶着下巴，保持微笑.mp4
+Smiling gracefully while swaying left and right, then after a while, resting hand on chin, maintaining a smile.mp4
 
-To learn more about Next.js, take a look at the following resources:
+jimeng-2025-07-16-4437-比耶，然后微笑着优雅的左右摇晃.mp4
+Making a V-sign, then smiling gracefully while swaying left and right.mp4
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+jimeng-2025-07-17-1871-优雅的摇晃身体 微笑.mp4
+Gracefully swaying the body, smiling.mp4
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+jimeng-2025-07-17-2665-若有所思，手扶下巴.mp4
+Looking thoughtful, resting hand on chin.mp4
 
-## Deploy on Vercel
+jimeng-2025-07-21-2297-悲伤.mp4
+Sadness.mp4
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+jimeng-2025-07-21-8544-打招呼.mp4
+Greeting.mp4
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+jimeng-2025-07-23-3856-主体形象是一个数字人，确认，优雅的小幅度点头.mp4
+The main figure is a digital human, confirming, small elegant nod.mp4
+
+jimeng-2025-07-23-4616-主体形象是一个数字人，开心大笑的样子，保持优雅.mp4
+The main figure is a digital human, happily laughing while maintaining elegance.mp4
+
+jimeng-2025-07-23-7205-主体形象是一个数字人，对用户表现，成就给予肯定和鼓励时用，保持优雅.mp4
+The main figure is a digital human, expressing affirmation and encouragement for user achievements, maintaining elegance.mp4
+
+标准_主体形象是一个数字人_说话中.mp4
+Standard – The main figure is a digital human – Speaking.mp4
+
+生成加油视频.mp4
+Generate cheering video.mp4
+
+生成跳舞视频.mp4
+Generate dancing video.mp4
