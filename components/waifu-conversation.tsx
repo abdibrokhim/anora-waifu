@@ -176,8 +176,8 @@ export function WaifuConversation() {
         <Button
           onClick={() => setIsChatOpen(!isChatOpen)}
           variant="outline"
-          size="icon"
-          className="bg-black/20 backdrop-blur-md border-white/20 text-white hover:bg-black/30 hover:scale-105 transition-all shadow-lg"
+          size="sm"
+          className="bg-black/20 backdrop-blur-md border-white/20 text-white hover:bg-black/30 hover:text-white hover:scale-105 transition-all shadow-lg"
         >
           <div className="flex items-center">
             <MessageCircle className="h-4 w-4 mr-1" />
@@ -249,7 +249,7 @@ export function WaifuConversation() {
               </div>
               
               {/* Chat Messages */}
-              <div className="max-h-64 overflow-y-auto p-4 space-y-3">
+              <div className="max-h-80 overflow-y-auto p-4 space-y-3">
                 {chatMessages.length === 0 ? (
                   <p className="text-white/60 text-sm text-center py-8">
                     No messages yet. Start a conversation!
@@ -266,7 +266,7 @@ export function WaifuConversation() {
                       <div
                         className={`max-w-[80%] p-3 rounded-lg text-sm ${
                           msg.type === 'user'
-                            ? 'bg-blue-500/80 text-white ml-4'
+                            ? 'bg-white/40 text-white ml-4'
                             : 'bg-white/10 text-white/90 mr-4'
                         }`}
                       >
@@ -328,7 +328,7 @@ export function WaifuConversation() {
                   className="bg-green-500/30 backdrop-blur-md border border-green-400/30 text-white hover:bg-green-500/40 hover:scale-105 transition-all shadow-xl px-6 py-3"
                 >
                   <Phone className="w-5 h-5 mr-2" />
-                  Start Chat
+                  Start Call
                 </Button>
               </motion.div>
             ) : (
@@ -344,7 +344,7 @@ export function WaifuConversation() {
                   className="bg-red-500/30 backdrop-blur-md border border-red-400/30 text-white hover:bg-red-500/40 hover:scale-105 transition-all shadow-xl px-6 py-3"
                 >
                   <PhoneOff className="w-5 h-5 mr-2" />
-                  End Chat
+                  End Call
                 </Button>
               </motion.div>
             )}
@@ -363,10 +363,9 @@ export function WaifuConversation() {
                   onClick={toggleMute}
                   variant="outline"
                   size="icon"
-                  className="bg-black/30 backdrop-blur-md border-white/20 text-white hover:bg-black/40 hover:scale-105 transition-all shadow-xl"
+                  className="bg-black/30 backdrop-blur-md border-white/20 text-white hover:bg-black/40 hover:scale-105 hover:text-white transition-all shadow-xl"
                 >
                   <motion.div
-                    animate={{ rotate: isMuted ? 180 : 0 }}
                     transition={{ duration: 0.3 }}
                   >
                     {isMuted ? <VolumeX className="h-5 w-5" /> : <Volume2 className="h-5 w-5" />}
@@ -378,7 +377,7 @@ export function WaifuConversation() {
         </div>
 
         {/* Status Information */}
-        <motion.div 
+        {/* <motion.div 
           className="mt-4 text-center"
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
@@ -396,7 +395,7 @@ export function WaifuConversation() {
               {currentSituation.replace('_', ' ')}
             </motion.p>
           </AnimatePresence>
-        </motion.div>
+        </motion.div> */}
       </motion.div>
     </motion.div>
   );
